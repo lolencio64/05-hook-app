@@ -1,7 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from "./components/09-useContext/MainApp";
 //import { CallbackHook } from './components/06-memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+//import { Padre } from './components/07-tarea-memo/Padre';
 //import { MemoHook } from './components/06-memos/MemoHook';
 //import { FocusScreen } from './components/04-useRef/FocusScreen';
 //import { RealExpampleRef } from './components/04-useRef/RealExpampleRef';
@@ -14,13 +16,10 @@ import { Padre } from './components/07-tarea-memo/Padre';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HookApp } from './HookApp';
 
-
-ReactDOM.render(
-    <Padre />,
-  document.getElementById('root')
-);
+ReactDOM.render(<MainApp />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 //reportWebVitals();
+//import './components/08-useReducer/intro-reducer'
